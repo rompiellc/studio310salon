@@ -73,10 +73,12 @@ export default function Navigation() {
 
           {/* Book CTA */}
           <a
-            href="tel:+16172410089"
+            href="https://www.fresha.com/lvp/studio-310-hair-salon-main-street-boston-3oJQYv"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:inline-flex items-center px-5 py-2.5 bg-[#C4607A] text-white text-[10px] tracking-[0.2em] uppercase font-[family-name:var(--font-inter)] font-medium hover:bg-[#9E4D64] transition-all duration-300 hover:-translate-y-0.5 rounded-sm"
           >
-            Call to Book
+            Book Now
           </a>
 
           {/* Mobile hamburger */}
@@ -132,10 +134,12 @@ export default function Navigation() {
                   transition={{ delay: 0.1 + navLinks.length * 0.07 }}
                 >
                   <a
-                    href="tel:+16172410089"
+                    href="https://www.fresha.com/lvp/studio-310-hair-salon-main-street-boston-3oJQYv"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="mt-4 inline-flex items-center px-8 py-3 bg-[#C4607A] text-white text-sm tracking-[0.2em] uppercase font-[family-name:var(--font-inter)] font-medium rounded-sm"
                   >
-                    Call to Book
+                    Book Now
                   </a>
                 </motion.li>
               </ul>

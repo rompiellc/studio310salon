@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Gallery',
@@ -108,11 +107,12 @@ export default function GalleryPage() {
           Call us or stop by — we&apos;re always happy to find the perfect look for you.
         </p>
         <a
-          href="tel:+16172410089"
+          href="https://www.fresha.com/lvp/studio-310-hair-salon-main-street-boston-3oJQYv"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-10 py-4 bg-[#C4607A] text-white font-[family-name:var(--font-inter)] text-[11px] tracking-[0.2em] uppercase font-medium hover:bg-[#9E4D64] transition-all duration-300 hover:-translate-y-0.5 rounded-sm"
         >
-          <Phone size={14} />
-          (617) 241-0089
+          Book Now on Fresha
         </a>
       </section>
     </>

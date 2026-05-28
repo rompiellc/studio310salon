@@ -43,11 +43,12 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="tel:+16172410089"
+              href="https://www.fresha.com/lvp/studio-310-hair-salon-main-street-boston-3oJQYv"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#C4607A] text-white font-[family-name:var(--font-inter)] text-[11px] tracking-[0.2em] uppercase font-medium hover:bg-[#9E4D64] transition-all duration-300 hover:-translate-y-0.5 rounded-sm"
             >
-              <Phone size={14} />
-              (617) 241-0089
+              Book Now
             </a>
             <Link
               href="/services"
@@ -211,11 +212,12 @@ export default function HomePage() {
           Call or stop by at 310 Main St, Charlestown — we&apos;d love to see you.
         </p>
         <a
-          href="tel:+16172410089"
+          href="https://www.fresha.com/lvp/studio-310-hair-salon-main-street-boston-3oJQYv"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-10 py-4 bg-[#C4607A] text-white font-[family-name:var(--font-inter)] text-sm tracking-[0.2em] uppercase font-medium hover:bg-[#9E4D64] transition-all duration-300 hover:-translate-y-0.5 rounded-sm"
         >
-          <Phone size={15} />
-          (617) 241-0089
+          Book Now on Fresha
         </a>
         <div className="mt-6 flex items-center justify-center gap-2 text-[#F2C4CE]/40">
           <MapPin size={13} />

@@ -109,10 +109,12 @@ export default function ServicesPage() {
                     </p>
                   </div>
                   <a
-                    href="tel:+16172410089"
+                    href="https://www.fresha.com/lvp/studio-310-hair-salon-main-street-boston-3oJQYv"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 font-[family-name:var(--font-inter)] text-[10px] tracking-[0.2em] uppercase text-[#C4607A] hover:text-[#9E4D64] transition-colors duration-300 whitespace-nowrap flex-shrink-0"
                   >
-                    Call to Book <ArrowRight size={10} />
+                    Book Now <ArrowRight size={10} />
                   </a>
                 </div>
                 {i < services.length - 1 && (
@@ -137,11 +139,12 @@ export default function ServicesPage() {
           {/* CTA */}
           <div className="mt-12 text-center">
             <a
-              href="tel:+16172410089"
+              href="https://www.fresha.com/lvp/studio-310-hair-salon-main-street-boston-3oJQYv"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-10 py-4 bg-[#C4607A] text-white font-[family-name:var(--font-inter)] text-[11px] tracking-[0.2em] uppercase font-medium hover:bg-[#9E4D64] transition-all duration-300 hover:-translate-y-0.5 rounded-sm"
             >
-              <Phone size={14} />
-              (617) 241-0089
+              Book Now on Fresha
             </a>
           </div>
         </div>
