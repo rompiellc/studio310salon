@@ -8,42 +8,14 @@ export const metadata: Metadata = {
 }
 
 const galleryImages = [
-  {
-    src: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80',
-    alt: 'Braided protective style',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80',
-    alt: 'Precision cut and blowout',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&q=80',
-    alt: 'Balayage color highlights',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=800&q=80',
-    alt: 'Natural curl definition',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1595959183082-7b570b7e08e9?w=800&q=80',
-    alt: 'Silk press finish',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1614084689073-9fb1a8d8c5e3?w=800&q=80',
-    alt: 'Box braids installation',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1597983073493-88cd30e27b3b?w=800&q=80',
-    alt: 'Vibrant hair color',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1559599101-f09722fb4948?w=800&q=80',
-    alt: 'Hair styling in salon',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1594897030264-ab7d87efc473?w=800&q=80',
-    alt: 'Special occasion updo',
-  },
+  { src: '/hair1.png', alt: 'Hair styling at Studio 310', width: 243, height: 304 },
+  { src: '/hair2.png', alt: 'Hair styling at Studio 310', width: 243, height: 244 },
+  { src: '/hair3.png', alt: 'Hair styling at Studio 310', width: 243, height: 406 },
+  { src: '/hair4.png', alt: 'Hair styling at Studio 310', width: 243, height: 406 },
+  { src: '/hair5.png', alt: 'Hair styling at Studio 310', width: 243, height: 244 },
+  { src: '/hair6.png', alt: 'Hair styling at Studio 310', width: 243, height: 406 },
+  { src: '/hair7.png', alt: 'Hair styling at Studio 310', width: 243, height: 406 },
+  { src: '/hair8.png', alt: 'Hair styling at Studio 310', width: 243, height: 244 },
 ]
 
 export default function GalleryPage() {
@@ -80,8 +52,8 @@ export default function GalleryPage() {
                 <Image
                   src={img.src}
                   alt={img.alt}
-                  width={800}
-                  height={600}
+                  width={img.width}
+                  height={img.height}
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                   loading={i < 3 ? 'eager' : 'lazy'}
                 />

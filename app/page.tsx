@@ -16,8 +16,8 @@ export default function HomePage() {
         {/* Background */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=80"
-            alt="Studio 310 Hair Salon interior"
+            src="/hair1.png"
+            alt="Studio 310 Hair Salon"
             fill
             priority
             className="object-cover"
@@ -72,7 +72,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900&q=80"
+              src="/hair2.png"
               alt="Stylist at work at Studio 310"
               fill
               className="object-cover transition-transform duration-700 hover:scale-105"
@@ -166,12 +166,12 @@ export default function HomePage() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-10">
             {[
-              'https://images.unsplash.com/photo-1595959183082-7b570b7e08e9?w=600&q=80',
-              'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&q=80',
-              'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80',
-              'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&q=80',
-              'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&q=80',
-              'https://images.unsplash.com/photo-1614084689073-9fb1a8d8c5e3?w=600&q=80',
+              '/hair1.png',
+              '/hair2.png',
+              '/hair3.png',
+              '/hair4.png',
+              '/hair5.png',
+              '/hair6.png',
             ].map((src, i) => (
               <div key={i} className="relative aspect-square overflow-hidden rounded-sm group">
                 <Image
